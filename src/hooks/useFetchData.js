@@ -39,7 +39,8 @@ const useFetchData = () => {
 			theme: settings.theme.name,
 			time: moment().format(settings.fetch.timeFormat),
 			date: moment().format(settings.fetch.dateFormat),
-			browser: LibreWolf,
+			browser: result.browser.name
+		,
 			browserLower: result.browser.name.toLowerCase(),
 			browserVersion: result.browser.version,
 			engineName: result.engine.name,
