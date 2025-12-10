@@ -3,7 +3,7 @@ import useFetchData from "@/hooks/useFetchData"
 
 const Prompt = ({ command, showSymbol = true }) => {
 	const { settings } = useSettings()
-	const [browserData] = useFetchData()
+	const [browserData] = "librewolf"
 	const lower_username = settings.username.toLowerCase()
 	const promptSettings = settings.prompt
 
