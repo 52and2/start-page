@@ -1,34 +1,34 @@
 {
-	"username": "Excalith",
-	"title": "Excalith Start Page",
+	"username": "ivy",
+	"title": "~",
 	"theme": {
-		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
-		"gray": "#97989d"
+		"name": "Gruvbox Material Dark",
+		"backgroundColor": "#282828",
+		"windowColor": "#3c3836",
+		"textColor": "#ebdbb2",
+		"black": "#1d2021",
+		"red": "#fb4934",
+		"green": "#b8bb26",
+		"yellow": "#fabd2f",
+		"blue": "#83a598",
+		"magenta": "#d3869b",
+		"cyan": "#8ec07c",
+		"white": "#ebdbb2",
+		"gray": "#928374"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "https://raw.githubusercontent.com/52and2/start-page/refs/heads/main/data/assets/6b15k9avjgn71.jpg",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
 	},
 	"terminal": {
 		"fixedHeight": true,
-		"windowGlow": true,
-		"windowGlowColor": "#291f3325",
+		"windowGlow": false,
+		"windowGlowColor": "#2E2736",
 		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
+		"opacity": 100,
+		"blur": 0
 	},
 	"prompt": {
 		"ctrlC": true,
@@ -66,39 +66,24 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q={}",
+		"default": "https://www.startpage.com/search?q={}",
 		"target": "_self",
 		"shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
 		"shortcuts": [
-			{
-				"alias": "g",
-				"name": "Google Search",
-				"url": "https://google.com/search?q={}"
-			},
-			{
-				"alias": "d",
-				"name": "DuckDuckGo Search",
-				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "!d",
-				"name": "DuckDuckGo Lucky Search",
-				"url": "https://duckduckgo.com/?q=!ducky+{}"
-			},
-			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
-			},
 			{
 				"alias": "gh",
 				"name": "Github Search",
 				"url": "https://github.com/search?q={}"
 			},
 			{
-				"alias": "s",
-				"name": "Stack Overflow Search",
-				"url": "https://stackoverflow.com/search?q={}"
+				"alias": "if",
+				"name": "Ifixit Search",
+				"url": "https://www.ifixit.com/Search?query={}"
+			},
+			{
+				"alias": "yt",
+				"name": "Youtube Search",
+				"url": "https://youtube.com/search?q={}"
 			},
 			{
 				"alias": "r",
@@ -120,24 +105,19 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Youtube",
+						"url": "https://youtube.com",
+						"icon": "mdi:youtube"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Ebay",
+						"url": "https://ebay.com",
+						"icon": "mdi:basket"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
-					},
-					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Wikipedia",
+						"url": "https://en.wikipedia.org",
+						"icon": "tabler:brand-wikipedia"
 					}
 				]
 			},
@@ -152,46 +132,14 @@
 						"icon": "mdi:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "AUR",
+						"url": "https://aur.archlinux.org/",
+						"icon": "mdi:arch"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "Social",
-				"color": "cyan",
-				"align": "left",
-				"links": [
-					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
+						"name": "Speedtest",
+						"url": "https://speedtest.net",
+						"icon": "tabler:brand-speedtest"
 					}
 				]
 			},
@@ -201,78 +149,19 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "Minecraft",
+						"url": "https://minecraft.wiki",
+						"icon": "tabler:brand-minecraft"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "Abiotic Factor",
+						"url": "https://abioticfactor.wiki.gg/",
+						"icon": "mdi:test-tube"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
-					}
-				]
-			},
-			{
-				"title": "Science",
-				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
-					},
-					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
-					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
-					},
-					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "VRC",
+						"url": "https://vrchat.com/home",
+						"icon": "tabler:cardboards-filled"
 					}
 				]
 			}
